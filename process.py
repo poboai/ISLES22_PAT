@@ -22,7 +22,7 @@ class PAT():
                  input_path: Path = DEFAULT_INPUT_PATH,
                  output_path: Path = DEFAULT_ALGORITHM_OUTPUT_IMAGES_PATH):
 
-        self.debug = True  # False for running the docker!
+        self.debug = False  # False for running the docker!
         if self.debug:
             self._input_path = Path('test')
             self._output_path = Path('test/output')
@@ -182,7 +182,7 @@ class PAT():
         """ Gets the path for each MR image/json file."""
 
         if filetype == 'image':
-            file_list = list((self._input_path / "images" / slug).glob("*.nii.gz"))# *.mha"))
+            file_list = list((self._input_path / "images" / slug).glob("*.mha"))# *.mha"))
         elif filetype == 'json':
             file_list = list(self._input_path.glob("*{}.json".format(slug)))
 
