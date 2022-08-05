@@ -1,0 +1,25 @@
+#Install GrandChallenge Packages
+evalutils==0.3.1
+scikit-learn==0.24.2
+scipy==1.6.3
+
+#Install Registration Packages
+antspyx
+
+#Install nnUNet Packages https://hub.docker.com/r/nbutter/nnunet
+nnunet==1.7.0
+tqdm
+dicom2nifti
+#scikit-image>=0.14
+medpy
+#scipy
+batchgenerators>=0.23
+#numpy
+sklearn
+#SimpleITK
+pandas
+requests
+nibabel
+tifffile
+matplotlib
+
