@@ -6,7 +6,7 @@ The source code for the algorithm container for ISLES22_PAT, generated with eval
 You can run the inference code with docker system.  
 please following these instructions:  
   1. Prepare mri image data (mha format) and json data of adc, dwi, and flair mri images according to the folder structure below.  
-  
+  *or you can use sample data in test folder  
 ```
 ISLES22_PAT/test/  
 ├── images  
@@ -20,7 +20,8 @@ ISLES22_PAT/test/
 ├── dwi-mri-parametrs.json  
 ├── flair-mri-parametrs.json  
 ```  
-  2. Running the test.sh file automatically installs the required package of requirements.txt and allows you to test the code.  
+  2. Download models from [here](https://postechackr-my.sharepoint.com/:u:/g/personal/ych000_postech_ac_kr/Eb41Y0SrqSxIoknM10WU7hIB1RcqA7_R1GlTgWiDnU3TKg?e=jyGoog) and put them in `nnUNet_model` folder.  
+  3. Running the test.sh file automatically installs the required package of requirements.txt and allows you to test the code.  
   `./test.sh`  
   *this automatically install all the packages for the ISLES22_PAT code.  
   *you can modify the test.sh file to change the number of gpu to use, memory limitation, shm size, etc.  
