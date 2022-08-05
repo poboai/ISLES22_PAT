@@ -22,7 +22,7 @@ ISLES22_PAT/test/
 '''  
   2. Running the test.sh file automatically installs the required package of requirements.txt and allows you to test the code.  
   `./test.sh`  
-  *this automatically install all the packages for the ISLES22_PAT code.
+  *this automatically install all the packages for the ISLES22_PAT code.  
   *you can modify the test.sh file to change the number of gpu to use, memory limitation, shm size, etc.
 
   
