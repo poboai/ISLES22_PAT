@@ -6,7 +6,7 @@ The source code for the algorithm container for ISLES22_PAT, generated with eval
 You can run the inference code with docker system.
 please following these instructions:
 
-  1. just run test.sh file to test the dockerfile.
-  './test.sh'
+  1. just run test.sh file to test the dockerfile.  
+  './test.sh'  
   this automatically install all the packages for the ISLES22_PAT code.
   
