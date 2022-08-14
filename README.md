@@ -2,6 +2,7 @@
 Codes for submission of 2022 Multimodal MRI Infract Segmentation in Acute and Sub-Acute  Stroke (ISLES) Challenge  
 The source code for the algorithm container for ISLES22_PAT, generated with evalutils version 0.3.1.  
 
+![Figure](./fig.png)
 # Inference  
 You can run the inference code with docker system.  
 please following these instructions:  
